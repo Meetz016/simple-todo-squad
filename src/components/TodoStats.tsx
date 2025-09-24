@@ -11,7 +11,7 @@ export const TodoStats = ({
   return <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
       <div className="bg-gradient-card rounded-xl p-4 border border-border text-center">
         <div className="text-2xl font-bold text-foreground">{totalTodos}</div>
-        <div className="text-sm text-muted-foreground">Total Tasks</div>
+        <div className="text-sm text-muted-foreground mx-[11px]">Total Tasks</div>
       </div>
       
       <div className="bg-gradient-card rounded-xl p-4 border border-border text-center bg-gray-300">
